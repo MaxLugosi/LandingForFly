@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) { 
+    .container {
+        width: 540px;
+    }
+    .header {
+        &__image {
+            display: none;
+        }
+        &__paragraph {
+            min-width: 100%;
+        }
+        &__button {
+            min-width: 100%;
+        }
+    }
+    .first {
+        &__utp {
+            display: block;
+            &-skill {
+                max-width: 100%;
+                & .correct-image {
+                    margin-bottom: 0;
+                }
+                & .correct-image--second {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

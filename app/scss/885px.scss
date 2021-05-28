@@ -1,0 +1,16 @@
+@media (max-width: 885px) { 
+    .header {
+        padding-left: 25px;
+        &__image {
+            display: none;
+        }
+    }
+}
+
+.first {
+    &__utp {
+        &-skill {
+            padding: 0 7px;
+        }
+    }
+}
